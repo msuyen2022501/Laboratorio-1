@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background-image: url('https://static.wixstatic.com/media/128120_7f3b9fbf981448809326f69585851cb9~mv2.jpg/v1/fill/w_1130,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/128120_7f3b9fbf981448809326f69585851cb9~mv2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#logo-colegio {
+    position: absolute;
+    top: 10px;
+    left: 330px;
+    width: 150px;
+}
+
+#logo-banco {
+    position: absolute;
+    top: 10px;
+    right: 350px;
+    width: 120px;
+}
+
+.encabezado {
+    text-align: center;
+    padding: 50px 20px; /* Ajusta según sea necesario */
+    background-color: #041d5a; /* Puedes cambiar el color de fondo */
+    color: white;
+}
+
+.encabezado h1 {
+    font-size: 36px; /* Ajusta el tamaño del título */
+    margin-bottom: 10px;
+}
+
+.encabezado p {
+    font-size: 18px; /* Ajusta el tamaño del texto descriptivo */
+}
+
+
+nav {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: #041d5a;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 30px;
+    margin: 0 10px;
+    position: relative;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #00f;
+}
+
+.bar-hover {
+    position: absolute;
+    background-color: #fff;
+    height: 3px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+
+nav a:hover .bar-hover {
+    display: block;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #041d5a;
+    min-width: 150px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 50px;
+    /* Ajusta la distancia vertical desde el elemento padre (40px es un ejemplo) */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:nth-child(3) {
+    margin-top: 30px;
+}  
+
+.dropdown:nth-child(2) {
+    margin-top: 30px;
+}  
+
+.grande {
+    height: 1500px; /* Ajusta la altura según sea necesario */
+    background-color: rgb(6, 6, 6); /* Color de la sección grande */
+    margin-bottom: 500px; 
+    margin-top: 500px;
+}
+
+.mediana {
+    height: 600px; /* Ajusta la altura según sea necesario */
+    background-color: rgb(19, 18, 18); /* Color de la sección mediana */
+    top: 80px;
+}
+
+.pequena {
+    height: 1500px; /* Ajusta la altura según sea necesario */
+    background-color: #041d5a; /* Color de la sección pequeña */
+    border-top-left-radius: 90% 20%;
+    border-top-right-radius: 70% 20%;
+    position: relative;
+    top: -215px;
+}
+
+.grande {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 254, 254);
+    color: white;
+    flex-wrap: wrap;
+    gap: -50px;
+    padding: 20px;
+}
+
+.grande > div {
+    width: calc(30% - 10px);
+    box-sizing: border-box;
+}
+
+.grande img {
+    width: 50%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.grande .contenido {
+    padding: 20px;
+    text-align: center;
+}
+
+.grande h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.boton {
+    padding: 10px 20px;
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.grande .contenido {
+    color: #6585ca;
+}
+
+.grande {
+    text-align: center; /* Centra el contenido en la sección grande */
+}
+
+.trabajo-bien-hecho {
+    font-family: 'Brush Script MT', cursive; /* Cambia la fuente a Brush Script MT */
+    font-size: 24px; /* Tamaño del texto */
+    margin-bottom: 20px; /* Espacio entre el texto y las imágenes */
+}
+
+.botones a:hover {
+    background-color: #000000; /* Cambia el color de fondo al pasar el mouse */
+    color: rgb(255, 255, 255); /* Cambia el color del texto al pasar el mouse */
+}
