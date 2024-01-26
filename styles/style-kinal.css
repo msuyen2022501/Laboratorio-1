@@ -158,6 +158,7 @@ nav a:hover .bar-hover {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    
 }
 
 .boton {
@@ -185,4 +186,33 @@ nav a:hover .bar-hover {
 .botones a:hover {
     background-color: #000000; /* Cambia el color de fondo al pasar el mouse */
     color: rgb(255, 255, 255); /* Cambia el color del texto al pasar el mouse */
+}
+
+.carrusel {
+    text-align: center;
+    padding: 50px 20px; /* Ajusta según sea necesario */
+    background-color: #041d5a; /* Puedes cambiar el color de fondo */
+    color: white;
+}
+
+.carrusel h1 {
+    font-size: 36px; /* Ajusta el tamaño del título */
+    margin-bottom: 10px;
+}
+
+.carrusel p {
+    font-size: 18px; /* Ajusta el tamaño del texto descriptivo */
+}
+
+.carrusel-imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.carrusel-imagenes img {
+    max-width: 100%;
+    max-height: 300px; /* Ajusta la altura máxima según sea necesario */
+    margin: 0 10px; /* Ajusta el espacio entre las imágenes */
 }
