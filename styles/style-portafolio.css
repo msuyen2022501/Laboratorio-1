@@ -1,0 +1,144 @@
+body {
+    font-family: 'Garamond', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    color: #000000;
+    font-size: 16px; 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#about-me {
+    background-color: #f3d52a1f;
+}
+
+#clickHereMessage {
+    background-color: #F3D52A;
+    color: #000000;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#clickHereMessage:hover {
+    background-color: #FFEB3B;
+}
+
+
+.navbar {
+    background-color: #000000;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: #fff; 
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    color: #F3D52A;
+}
+
+
+.section {
+    padding: 40px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease, transform 0.8s ease, box-shadow 0.3s ease;
+    position: relative;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section.show {
+    opacity: 1;
+    transform: translateY(0);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #292b2c;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-img {
+    max-width: 300px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+p {
+    max-width: 600px;
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+p::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #F3D52A;
+    margin-top: 10px;
+}
+
+p.special-paragraph {
+    max-width: 600px;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: -180px;
+}
+
+p.special-paragraph::after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 1px;
+    background-color: #F3D52A;
+    margin-top: 10px;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .gallery-img {
+    max-width: 200px;
+    margin-right: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

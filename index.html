@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio</title>
+    <link rel="stylesheet" href="styles/style-index.css">
+</head>
+
+<body>
+    
+    <div class="navbar">
+        <header data-content="¡Hola! Soy Mario David Suyén Girón aquí comparto todo lo que me apasiona y disfruto. Descubre más sobre mis intereses y lo que realmente me gusta.">
+            <div class="menu-icon" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <h1>Mi página</h1>
+        </header>
+    </div>
+
+    <div class="header-dropdown">
+        <div class="dropdown-content">
+            <a href="/pages/porfatolio.html">PORTAFOLIO</a>
+            <a href="/pages/kinal.html">KINAL</a>
+        </div>
+    </div>
+
+    <section id="gustos" id="gustos-gallery">
+        <h2>Lo que me gusta</h2>
+        <p>Soy un apasionado de la música y disfruto expresándome a través de las cuerdas de mi guitarra. Llevo explorando este fascinante mundo musical durante aproximadamente tres años. La capacidad de expresión y creatividad que la música ofrece es algo que verdaderamente me cautiva.</p>
+        <p>Me encanta sumergirme en diversos géneros, pero encuentro especial deleite en la elegancia de la música clásica, la emotividad de los boleros y la energía del rock. Cada género aporta una dimensión única a mi experiencia musical, enriqueciendo mi conexión con esta forma de arte.</p>
+        <div class="gallery">
+            <img src="https://guitar.com/wp-content/uploads/2021/09/How-to-buy-a-vintage-Telecaster-Credit-Eleanor-Jane-1@2560x1625.jpg" alt="Primera imagen">
+            <img src="https://www.classica.fm/wp-content/uploads/2022/05/clasica-2.jpg" alt="Segunda imagen" class="hidden">
+            <img src="https://s1.abcstatics.com/media/cultura/2020/09/25/hendrix-concierto-kaIE--1248x698@abc.jpg" alt="Tercera imagen" class="hidden">
+            <img src="https://cdn.aarp.net/content/dam/aarp/entertainment/art_music/2016/09/1140-los-dandys-romance-en-trio-esp.jpg" alt="Cuarta imagen" class="hidden">
+
+            <button class="prev" onclick="changeImage(-1)">&#10094;</button>
+            <button class="next" onclick="changeImage(1)"> &#10095;</button>
+        </div>
+    </section>
+
+    <section id="razones" id="razones-gallery">
+        <h2>Por qué la música me apasiona</h2>
+        <p>Desde mi infancia, la música ha sido una compañera inseparable, una fuente inagotable de emociones que ha enriquecido mi vida de maneras inimaginables.</p>
+        <p>Explorar diversos géneros siempre ha sido un deleite para mí; cada estilo musical ofrece una experiencia única y enriquecedora que disfruto plenamente.</p>
+        <p>El inicio de mi travesía en el mundo de la guitarra coincidió con la pandemia. Este instrumento se convirtió en mi refugio, una hermosa forma de desahogarme y dedicar mi tiempo de manera significativa.</p>
+        <p>La admiración por grandes músicos ha sido una constante en mi vida. Wolfgang Amadeus Mozart, con su genialidad atemporal, ocupa un lugar especial en mi corazón como mi compositor preferido.</p>
+        <p>Explorando más allá de las épocas clásicas, mi fascinación se extiende a músicos y compositores contemporáneos. Kōji Kondō, maestro japonés de la música de videojuegos, Joe Hisaishi, el talentoso compositor de Studio Ghibli, y Chick Corea, leyenda del jazz, son fuentes de inspiración que enriquecen mi aprecio por la diversidad musical.</p>
+        <div class="gallery">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Wolfgang-amadeus-mozart_1.jpg/640px-Wolfgang-amadeus-mozart_1.jpg" alt="Primera imagen">
+            <img src="https://www.nintenderos.com/wp-content/uploads/2024/01/GEn7C6ua4AEq3kq.jpg" alt="Segunda imagen" class="hidden">
+            <img src="https://soundtrackfest.com/wp-content/uploads/2019/12/JoeHisaishi-Europe2020-Stockholm-Main.jpg" alt="Tercera imagen" class="hidden">
+            <img src="https://static01.nyt.com/images/2021/02/12/obituaries/11COREA3/11COREA3-videoSixteenByNineJumbo1600.jpg" alt="Cuarta imagen" class="hidden">
+            <button class="prev" onclick="changeImage(-1)">&#10094;</button>
+            <button class="next" onclick="changeImage(1)"> &#10095;</button>
+        </div>
+    </section>
+
+
+    <section id="tiempo">
+        <h2>Tiempo dedicado a mi pasión</h2>
+        <p>Como aspirante a músico y guitarrista, mi meta es alcanzar un alto nivel en mi arte. Este año, me propongo profundizar mis conocimientos musicales y dedicar más tiempo a perfeccionar mi habilidad con la guitarra.</p>
+        <p>Planeo invertir 2 horas diarias, todos los días, en estudiar música y practicar intensamente mi instrumento. Esta disciplina constante es esencial para alcanzar mis objetivos y crecer como músico.</p>
+        <img class="imagen-tiempo" src="/resources/img/355463321_6269051576464516_5340449659242029199_n.jpg" alt="Foto">
+    </section>
+
+    <section id="informacion-adicional">
+        <h2>Más sobre mí</h2>
+        <p>Descubre más acerca de mis experiencias, proyectos y habilidades visitando mi <a href="/pages/porfatolio.html">portafolio</a>.</p>
+    </section>
+    </div>
+    
+
+    <footer>
+        <p>¡Gracias por visitar mi página!</p>
+    </footer>
+
+    <script src="scripts/script-index.js"></script>
+</body>
+
+</html>
